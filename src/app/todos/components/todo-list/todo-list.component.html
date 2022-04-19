@@ -1,0 +1,16 @@
+<ul class="todo-list">
+  <li *ngFor="let temp of todolist; let i = index">
+    <div class="view">
+      <input
+        class="toggle"
+        type="checkbox"
+        name="toggle"
+        [(ngModel)]="todolist[i].completed"
+        (click)="toggleCompleted(i)"
+      />
+
+      <label >{{ temp.text }}</label>
+      <button class="destroy" (click)="remove(i)"></button>
+    </div>
+  </li>
+</ul>
