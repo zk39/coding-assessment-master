@@ -1,0 +1,6 @@
+1. Add new todo function works
+2. Toggle single todo works
+3. Clear all selected complete todo works
+4. Clear single todo works
+5 Add "edit and update function in reducer,but havent been tested"
+6. Console can display the completed and active todo objects.
